@@ -1,4 +1,4 @@
 class Question < ApplicationRecord
-  validates :title, presence: true, uniqness: true
+  validates :title, presence: true, uniqueness: true
   validates :content, presence: true
 end
